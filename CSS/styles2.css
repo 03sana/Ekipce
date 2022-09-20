@@ -115,13 +115,15 @@ nav a:hover {
 
 #banner {
     position: relative;
-    background-image: url(../Images/Game.jpeg);
+    background-image: url(../images/game.jpeg);
     background-size: cover;
     background-position: bottom center;
-    height: calc(120% - 250px);
+    background-repeat: no-repeat;
+    height: calc(100% - 180px);
     width: 100%;
     text-align: center;
 }
+
 
 .banner-overlay {
     position: absolute;
@@ -174,4 +176,16 @@ nav a:hover {
 
 .button a {
     color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    #banner {
+        background-position: top -80px center;
+    }
+}
+
+@media (max-width: 750px) {
+    .menu {
+        display: none;
+    }
 }
