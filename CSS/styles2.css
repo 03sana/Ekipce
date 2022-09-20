@@ -115,7 +115,7 @@ nav a:hover {
 
 #banner {
     position: relative;
-    background-image: url(../images/game.jpeg);
+    background-image: url(../Images/Game.jpeg);
     background-size: cover;
     background-position: bottom center;
     height: calc(120% - 250px);
