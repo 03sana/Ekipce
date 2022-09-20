@@ -339,25 +339,3 @@ nav a:hover{
     left: 4px;
 }
 
-
-/* Gonullu ol part*/
-
-#banner {
-  background-image: url(../Images/Game.jpeg);
-  background-size: cover;
-  background-position: bottom center;
-  height: 629px;
-  width: 100%;
-}
-#banner .content h1 {
-  border: 2px solid black;
-  border-radius: 25px;
-  background-color: black;
-  position: relative;
-  top: 275px;
-  width: 300px;
-  margin: 0 auto;
-  color: #FD841F;
-  text-align: center;
-  box-shadow:3px 3px;
-}
